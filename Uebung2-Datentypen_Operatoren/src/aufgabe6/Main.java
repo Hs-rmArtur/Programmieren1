@@ -1,7 +1,6 @@
 package aufgabe6;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Main {
@@ -21,7 +20,7 @@ public class Main {
 			int val1, val2;
 
 			System.out.println("Addition:");
-			
+
 			System.out.println("Bitte geben Sie die erste Zahl ein.");
 			val1 = scan.nextInt();
 			System.out.println("Bitte geben sie die zweite Zahl ein.");
@@ -34,7 +33,7 @@ public class Main {
 			int val1, val2;
 
 			System.out.println("Subtraktion:");
-			
+
 			System.out.println("Bitte geben Sie die erste Zahl ein.");
 			val1 = scan.nextInt();
 			System.out.println("Bitte geben sie die zweite Zahl ein.");
@@ -72,18 +71,19 @@ public class Main {
 			System.out.println("Bitte geben Sie die Länge der zwei Seiten als Gleitkommazahl ein.");
 
 			System.out.println("Erste Länge:");
-			length1 = scan.nextDouble();
+			length1 = Math.abs(scan.nextDouble());
 			System.out.println("Zweite Länge:");
-			length2 = scan.nextDouble();
-			
-			erg = Math.sqrt( Math.pow(length1, 2) + Math.pow(length2, 2));
-			
+			length2 = Math.abs(scan.nextDouble());
+
+			erg = Math.sqrt(Math.pow(length1, 2) + Math.pow(length2, 2));
 
 		}
 
 		}
 
 		System.out.println("Das Ergebnis ihrer Rechnung ist: " + String.format("%.2f", erg));
+
+		scan.close();
 
 	}
 
