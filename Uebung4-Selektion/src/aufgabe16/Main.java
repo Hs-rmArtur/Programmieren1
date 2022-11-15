@@ -13,7 +13,7 @@ public class Main {
 
 		if (inputYear <= 0) {
 			System.out.println(
-					"Es werden nur Jahre nach Christus geburt berücksichtigt. Bitte geben Sie ein gültiges Jahr ein.");
+					"Es werden nur Jahre nach Christus Geburt berücksichtigt. Bitte geben Sie ein gültiges Jahr ein.");
 		} else {
 			if (((inputYear % 4 == 0) && !(inputYear % 100 == 0)) || (inputYear % 400 == 0)) {
 				isSchaltjahr = true;
