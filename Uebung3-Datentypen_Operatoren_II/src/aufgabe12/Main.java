@@ -22,12 +22,14 @@ public class Main {
 		System.out.println("Bei Double geht der Wertebereich bei einem Overflow ins unendliche.");
 		
 		
+		/*
 		char _char = 'a';
 		int _int = 192391;
 		long _long = 193103129;
 		float _float = 1231412.11F;
 		double _double = 123831.5892;
 		
+		*/
 	
 	}
 	
