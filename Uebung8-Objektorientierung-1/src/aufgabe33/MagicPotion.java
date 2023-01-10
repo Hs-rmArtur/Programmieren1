@@ -1,7 +1,8 @@
 package aufgabe33;
 
 public class MagicPotion {
-	final private float ENERGYLEVEL = 3;
+	final static float ENERGYLEVEL = 3;
+	
 	float radius;
 	float height;
 
