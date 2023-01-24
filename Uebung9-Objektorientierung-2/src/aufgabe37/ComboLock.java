@@ -39,7 +39,7 @@ public class ComboLock {
 
 	public void turnLeft(int ticks) {
 		if (currentNum - ticks < START_NUM) {
-			currentNum = END_NUM + (currentNum - ticks) + 1;
+			currentNum = END_NUM + (currentNum - ticks) + 1; 
 		} else {
 			currentNum -= ticks;
 		}
